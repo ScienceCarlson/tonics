@@ -1,49 +1,52 @@
 <html>
 <head>
-<title>Tonics</title>
+<title>Osmosis</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 <script src="code.js"></script>
 </head>
 <body>
-<center>
-	<h1>Tonicity</h1>
-	<div id="beaker">
-		<div class="beaker-lip" id="left"></div>
-		<div id="water-back" class="water">
-			<div id="water-front" class="water green"></div>
-		</div>
-		<div id="outside" class="concentration">
-			<span class="outside text water"><span class="percent water" id="outside-water-percent">90</span>% W</span><br />
-			<span class="outside text solute"><span class="percent solute" id="outside-solute-percent">10</span>% S</span>
-		</div>
-		<div class="beaker-lip" id="right"></div>
-		<div id="cell-back" class="cell">
-			<div id="cell-front" class="cell green"></div>
-			<div id="inside" class="concentration">
-				<span class="inside text water"><span class="percent water" id="inside-water-percent">50</span>% W</span><br />
-				<span class="inside text solute"><span class="percent solute" id="inside-solute-percent">50</span>% S</span>
-			</div>
-		</div>
-	</div>
-	<div id="buttons">
-		<input type="button" value="HYPERtonic" onclick="selectType('hypertonic');" />
-		<input type="button" value="HYPOtonic" onclick="selectType('hypotonic');" />
-		<input type="button" value="ISOtonic" onclick="selectType('isotonic');" />
-	</div>
+    <div id="page-background">
+        <center>
+            	<h1 class="header">Osmosis</h1>
 
-	<div id="scores">
-		<strong><span id="solution"></span></strong><br />
-		<span id="streak-text">STREAK: <span id="streak">0</span>/<span id="required-streak"></span></span><br />
-		<span id="correct-text"># correct: <span id="correct">0</span></span><br />
-		<span id="incorrect-text"># incorrect: <span id="incorrect">0</span></span>
-	</div>
-	<div class="red color" onclick="changeColor(0)"></div>
+            <div id="beaker">
+                <div class="beaker-lip" id="left"></div>
+                <div id="water-back">
+                    <div id="water-front" class="blue"></div>
+                </div>
+                <div id="outside" class="concentration">	<span class="outside text"><span class="percent" id="outside-water-percent">90</span>% W</span>
+                    <br />	<span class="outside text"><span class="percent" id="outside-solute-percent">10</span>% S</span>
+                </div>
+                <div class="beaker-lip" id="right"></div>
+                <div id="cell-back" class="cell">
+                    <div id="cell-front" class="cell white"></div>
+                    <div id="inside" class="concentration">	<span><span class="percent water" id="inside-water-percent">50</span>% W</span>
+                        <br />	<span><span class="percent solute" id="inside-solute-percent">50</span>% S</span>
+                    </div>
+                </div>
+            </div>
+            <div id="buttons">
+                <input type="button" value="HYPERtonic" onclick="selectType('hypertonic');" />
+                <input type="button" value="HYPOtonic" onclick="selectType('hypotonic');" />
+                <input type="button" value="ISOtonic" onclick="selectType('isotonic');" />
+            </div>
+            <div id="scores">	<strong><span id="solution"></span></strong>
+
+                <br />
+                <!-- This is left blank until the results of the first guess are displayed -->	<span id="streak-text">STREAK: <span id="streak">0</span>/<span id="required-streak"></span></span>
+                <br />	<span id="correct-text"># correct: <span id="correct">0</span></span>
+                <br /> <span id="incorrect-text"># incorrect: <span id="incorrect">0</span></span>
+
+            </div>
+            <!-- Below are the buttons to change the colors of the cells, which I didn't need <div class="red color" onclick="changeColor(0)"></div>
 	<div class="orange color" onclick="changeColor(1)"></div>
 	<div class="yellow color" onclick="changeColor(2)"></div>
 	<div class="green color" onclick="changeColor(3)"></div>
 	<div class="blue color" onclick="changeColor(4)"></div>
 	<div class="purple color" onclick="changeColor(5)"></div>
 	<div class="gray color" onclick="changeColor(6)"></div>
-</center>
+// -->
+        </center>
+    </div>
 </body>
 </html>
