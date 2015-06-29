@@ -1,150 +1,137 @@
 body {
-	font-family: sans-serif;
+    font-family: Roboto;
 }
-
 center {
-	position: relative;
+    position: relative;
 }
-
 #streak-text {
-	border: 1px solid gray;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 100%;
 }
-
 #beaker {
-	border: 2px solid black;
-	display: block;
-	border-top: none;
-	width: 300px;
-	height: 300px;
-	overflow: visible;
-	position: relative;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+    border: 2px solid black;
+    display: block;
+    border-top: none;
+    width: 300px;
+    height: 300px;
+    overflow: visible;
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
-
 .beaker-lip {
-	position: absolute;
-	border-top: 2px solid black;
-	width: 10px;
+    position: absolute;
+    border-top: 2px solid black;
+    width: 10px;
 }
-
 #left {
-	left: -10px;
+    left: -10px;
 }
-
 #right {
-	right: -10px;
+    right: -10px;
 }
-
 .cell {
-	border-radius: 50%;
+    border-radius: 50%;
 }
-
 #cell-back {
-	position: absolute;
-	border: 1px solid black;
-	display: block;
-	width: 50%;
-	height: 50%;
-	left: 25%;
-	top: 25%;
-	background-color: white;
+    position: absolute;
+    border: 1px solid black;
+    display: block;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25%;
+    background-color: white;
 }
-
 #cell-front {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
-
 #water-back {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 20px;
-	bottom: 0;
-	background-color: white;
-	border-top: 1px dotted black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    bottom: 0;
+    background-color: lightblue;
+    border-top: 1px dotted blue;
 }
-
 #water-front {
-	position: absolute;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
-
 .concentration {
-	position: absolute;
-	text-align: left;
+    position: absolute;
+    text-align: left;
 }
-
 #outside {
-	top: 20%;
-	left: 10%;
+    top: 20%;
+    left: 10%;
 }
-
 #inside {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 30%;
-	text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
 }
-
 #buttons {
-	display: block;
-	position: relative;
-	top: 20px;
+    display: block;
+    position: relative;
+    top: 20px;
 }
-
 #scores {
-	display: block;
-	position: relative;
-	clear: both;
-	top: 40px;
+    display: block;
+    position: relative;
+    clear: both;
+    top: 40px;
+    font-size: 125%;
+}
+.header {
+    background-color: white;
 }
 
 .correct {
-	background-color: green;
-	color: greenyellow;
+    background-color: green;
+    color: greenyellow;
 }
-
 .incorrect {
-	background-color: crimson;
-	color: white;
+    background-color: crimson;
+    color: white;
+}
+.streakmet {
+    background-image: url("http://image.spreadshirtmedia.com/image-server/v1/designs/12089008,width=178,height=178/WWF-dead-panda.png");
 }
 
+/*
 .red {
-	background-color: crimson;
+    background-color: crimson;
 }
-
 .orange {
-	background-color: sandybrown;
+    background-color: sandybrown;
 }
-
 .yellow {
-	background-color: gold;
+    background-color: gold;
 }
-
 .green {
-	background-color: limegreen;
+    background-color: limegreen;
 }
-
 .blue {
-	background-color: lightblue;
+    background-color: lightblue;
 }
-
 .purple {
-	background-color: mediumpurple;
+    background-color: mediumpurple;
 }
-
 .gray {
-	background-color: gray;
+    background-color: gray;
 }
-
 .color {
-	display: inline-block;
-	position: relative;
-	height: 20px;
-	width: 10px;
-	top: 60px;
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    width: 10px;
+    top: 60px;
 }
+*/
