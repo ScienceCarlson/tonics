@@ -1,6 +1,6 @@
 var ISO_ODDS = 1 / 5;
 var SATURATION_PT = 100;
-var requiredStreak = 2;
+var requiredStreak = 15;
 var showRequiredStreak = true; //What is the point of this?
 var insideConcentration = 0;
 var outsideConcentration = 0;
